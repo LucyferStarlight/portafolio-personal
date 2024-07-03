@@ -9,7 +9,9 @@
   align-items: center;
   justify-content: space-between;  
 }
-
+.navbar-collapse #logo{
+  border-radius: 50px;
+}
 /* Estilos generales */
 
 section {
