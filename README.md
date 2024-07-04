@@ -43,4 +43,4 @@ El texto de la página web está escrito en español, al igual que las clases y 
 
 ## Proyecto en vivo
 
-Puedes acceder al proyecto en vivo en: https://estefaniacn.github.io/portafolio-adaptable-bootstrap/
+Puedes acceder al proyecto en vivo en:  https://lucyferstarlight.github.io/portafolio-personal/
