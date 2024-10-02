@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentación Java</title>
+    <!--Etiqueta meta para anuncios de GoogleAdSense-->
+    <meta name="google-adsense-account" content="ca-pub-5223356050020142">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+  <!--Alerta de "Página en desarrollo"-->
+  <div id="alerta" class="alert alert-warning alert-dismissible fade show text-center" role="alert">
+    Está página está en desarrollo, cualquier información puede estar incompleta o incorrecta. <br>
+    Algunas funciones pueden no estar disponibles.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+              <img src="imagenes/HA-logo.svg" width="50" alt="Logo de la página web" id="logo">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Mi portafolio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <center>
+      <h1 id="titulo-java">
+        Introducción a la programación en Java
+      </h1>
+      </center>
+      <p id="IntroduccionJava">
+        Java es uno de los lenguajes de programación más populares y versátiles en el mundo de desarrollo de sofware. Es conocido por su portabilidad, lo que significa que el código que se escribe en java puede ejecutarse en casi cuaquier sistema operativo que tenga la <b><i id="JVM">Maquina Virtual de Java (JVM)</i>. </b> <br>
+        Si estás comenzando tu viaje en la programación, Java es una excelente opción para aprender los conceptos fundamentales de la programación orientada a objetos
+      </p>
+      <h2 id="Concepto-Java">
+        ¿Qué es Java?
+      </h2>
+      <p>
+        Java es un lenguaje de programación desarrollado por <b><i id="Sun-MicroSystems">Sun MicroSystems</i></b> en 1985 y más tarde adquirido por <b><i>Oracle.</i></b> Es ampliamente utilizado para desarollar aplicaciones empresariales, aplicaciones móviles (particularmente para android), aplicaciones de escritorio y sistemas integrados.
+        <br>Java sigue el paradigma de la <b>programación orientada a objetos <i>(POO)</i>,</b> lo que significa que se basa en el concepto de <i>"objetos"</i>, que pueden contener datos y métodos para operar sobre estos datos. Los pilares de la POO en Java son la <i>encapsulación, la herencia, el polimorfismo y la abstracción.</i>
+    </p>
+    <h2 id="ventajas-java">
+      Ventajas de aprender Java
+    </h2>
+
+<!--Script Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script>
+      setTimeout(function(){
+        var alerta= document.getElementById("alerta");
+        alerta.classList.remove("show");
+        alerta.classList.add("hide");
+      }, 10000);
+    </script>
+</body>
+</html>
